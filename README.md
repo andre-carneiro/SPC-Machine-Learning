@@ -74,4 +74,4 @@ L. L. (2024), *Proposal and appraisal of new indicators and performance metrics 
 
 ## License
 
-[to be decided]
+Code: MIT License (`LICENSE`). Data (project parameter files, simulated datasets and results): Creative Commons Attribution 4.0 International (CC BY 4.0).
