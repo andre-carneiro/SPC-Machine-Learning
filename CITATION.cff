@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Defining Optimal Schedule Review Periods Using Earned Duration Management, Monte Carlo Simulation, and Tree-Based Machine Learning (code and data)"
+authors:
+  - family-names: Carneiro
+    given-names: André Henrique Alves
+    affiliation: University of São Paulo
+  - family-names: Ho
+    given-names: Linda Lee
+    affiliation: University of São Paulo
+repository-code: "https://github.com/andre-carneiro/SPC-Machine-Learning"
+preferred-citation:
+  type: article
+  title: "Defining Optimal Schedule Review Periods Using Earned Duration Management, Monte Carlo Simulation, and Tree-Based Machine Learning"
+  authors:
+    - family-names: Carneiro
+      given-names: André Henrique Alves
+    - family-names: Ho
+      given-names: Linda Lee
+  journal: "Quality and Reliability Engineering International"
+  status: submitted

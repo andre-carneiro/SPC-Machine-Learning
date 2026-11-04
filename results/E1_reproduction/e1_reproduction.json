@@ -1,0 +1,75 @@
+[
+  {
+    "index_df": 60,
+    "period": "first",
+    "model": "xgb",
+    "time_interval": 10,
+    "features_intermediate": [
+      "period_20",
+      "period_40",
+      "period_50",
+      "period_80",
+      "period_100"
+    ],
+    "cv_intermediate": 0.7568683587056194,
+    "test_intermediate": 0.7811307367713507,
+    "features_final": [
+      "period_20",
+      "period_50",
+      "period_80",
+      "period_100"
+    ],
+    "cv_final": 0.7550489396749526,
+    "test_final": 0.7785122670749468,
+    "best_params_final": "{'alpha': np.float64(2.0), 'colsample_bytree': 0.7614813351608636, 'eta': np.float64(0.01), 'gamma': np.float64(2.0), 'lambda': np.float64(2.0), 'max_depth': np.int64(3), 'n_estimators': 800, 'seed': 42, 'subsample': 0.7658281562649536, 'verbosity': 0}",
+    "seconds_reproduce": 1.0,
+    "seconds_boruta": 42.7,
+    "seconds_retrain": 16.3
+  },
+  {
+    "index_df": 637,
+    "period": "second",
+    "model": "lgbm",
+    "time_interval": 10,
+    "features_intermediate": [
+      "period_110",
+      "period_140",
+      "period_150",
+      "period_200"
+    ],
+    "cv_intermediate": 0.7924712979905482,
+    "test_intermediate": 0.8096762388438702,
+    "features_final": [
+      "period_150",
+      "period_200"
+    ],
+    "cv_final": 0.7955180468941251,
+    "test_final": 0.8090809963030733,
+    "best_params_final": "{'colsample_bytree': 0.8145241167411119, 'learning_rate': np.float64(0.05477225575051662), 'max_depth': np.int64(3), 'n_estimators': 100, 'num_leaves': 52, 'random_state': 42, 'reg_alpha': np.float64(2.0), 'reg_lambda': np.float64(8.0), 'subsample': 0.9424893252645832, 'verbosity': -1}",
+    "seconds_reproduce": 0.6,
+    "seconds_boruta": 4.4,
+    "seconds_retrain": 123.1
+  },
+  {
+    "index_df": 1250,
+    "period": "third",
+    "model": "rf",
+    "time_interval": 20,
+    "features_intermediate": [
+      "period_240",
+      "period_300"
+    ],
+    "cv_intermediate": 0.99188584753393,
+    "test_intermediate": 0.9910579185182418,
+    "features_final": [
+      "period_240",
+      "period_300"
+    ],
+    "cv_final": 0.99188584753393,
+    "test_final": 0.9910579185182418,
+    "best_params_final": "{'max_depth': np.int64(6), 'min_samples_leaf': np.float64(0.009999999999999998), 'min_samples_split': np.float64(0.02), 'n_estimators': 300, 'random_state': 42}",
+    "seconds_reproduce": 1.1,
+    "seconds_boruta": 3.0,
+    "seconds_retrain": 58.0
+  }
+]

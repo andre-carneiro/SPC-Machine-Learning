@@ -1,0 +1,77 @@
+[
+  {
+    "index_df": 60,
+    "period": "first",
+    "model": "xgb",
+    "time_interval": 10,
+    "features_intermediate": [
+      "period_20",
+      "period_40",
+      "period_50",
+      "period_80",
+      "period_100"
+    ],
+    "cv_intermediate": 0.7568683587056194,
+    "test_intermediate": 0.7811307367713507,
+    "features_final": [
+      "period_20",
+      "period_50",
+      "period_80",
+      "period_100"
+    ],
+    "cv_final": 0.7550489396749526,
+    "test_final": 0.7785122670749468,
+    "best_params_final": "{'alpha': np.float64(2.0), 'colsample_bytree': 0.7614813351608636, 'eta': np.float64(0.01), 'gamma': np.float64(2.0), 'lambda': np.float64(2.0), 'max_depth': np.int64(3), 'n_estimators': 800, 'seed': 42, 'subsample': 0.7658281562649536, 'verbosity': 0}",
+    "seconds_reproduce": 1.0,
+    "seconds_boruta": 42.7,
+    "seconds_retrain": 16.3
+  },
+  {
+    "index_df": 654,
+    "period": "second",
+    "model": "xgb",
+    "time_interval": 20,
+    "features_intermediate": [
+      "period_120",
+      "period_140",
+      "period_160",
+      "period_200"
+    ],
+    "cv_intermediate": 0.7956674176697329,
+    "test_intermediate": 0.8088569401396617,
+    "features_final": [
+      "period_120",
+      "period_140",
+      "period_160",
+      "period_200"
+    ],
+    "cv_final": 0.7951437901174635,
+    "test_final": 0.8069718809514917,
+    "best_params_final": "{'alpha': np.float64(4.0), 'colsample_bytree': 0.7923313602564745, 'eta': np.float64(0.05477225575051662), 'gamma': np.float64(2.0), 'lambda': np.float64(0.0), 'max_depth': np.int64(5), 'n_estimators': 400, 'seed': 42, 'subsample': 0.8136774214893152, 'verbosity': 0}",
+    "seconds_reproduce": 0.6,
+    "seconds_boruta": 2.0,
+    "seconds_retrain": 10.3
+  },
+  {
+    "index_df": 1223,
+    "period": "third",
+    "model": "xgb",
+    "time_interval": 20,
+    "features_intermediate": [
+      "period_240",
+      "period_300"
+    ],
+    "cv_intermediate": 0.9923148735949812,
+    "test_intermediate": 0.9913028865902384,
+    "features_final": [
+      "period_240",
+      "period_300"
+    ],
+    "cv_final": 0.9922750413881524,
+    "test_final": 0.9912745061428732,
+    "best_params_final": "{'alpha': np.float64(0.0), 'colsample_bytree': 0.8438153494853842, 'eta': np.float64(0.05477225575051662), 'gamma': np.float64(6.0), 'lambda': np.float64(4.0), 'max_depth': np.int64(4), 'n_estimators': 1000, 'seed': 42, 'subsample': 0.6042933962114614, 'verbosity': 0}",
+    "seconds_reproduce": 0.5,
+    "seconds_boruta": 0.5,
+    "seconds_retrain": 8.6
+  }
+]

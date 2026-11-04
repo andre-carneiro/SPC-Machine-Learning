@@ -1,0 +1,13 @@
+{
+  "note": "measured while other experiments were running (shared CPU); original = statistical_project_control functions (pandas), triangular only",
+  "original_pandas_seconds_per_project": 52.37,
+  "original_estimated_hours_10k": 145.5,
+  "vectorized_seconds_10k": 12.42,
+  "vectorized_seconds_100k": 86.66,
+  "vectorized_10k_seconds_by_n_activities": {
+    "32": 7.82,
+    "64": 14.34,
+    "160": 41.9,
+    "320": 94.58
+  }
+}

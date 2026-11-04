@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+# datasets are archived at Zenodo (see data/processed/manifest.json)
+data/processed/*.parquet

@@ -1,0 +1,19 @@
+{
+  "machine": "idle (no other experiments running)",
+  "original_pandas_seconds_per_project": 14.87,
+  "original_estimated_hours_10k": 41.3,
+  "vectorized_seconds_10k": 3.34,
+  "vectorized_seconds_100k": 32.28,
+  "vectorized_10k_seconds_by_n_activities": {
+    "32": 3.35,
+    "64": 5.27,
+    "160": 14.47,
+    "320": 26.13
+  },
+  "candidate_seconds_first_period_biweekly": {
+    "dt": 24.2,
+    "xgb": 23.4,
+    "rf": 231.6,
+    "lgbm": 304.8
+  }
+}

@@ -1,0 +1,16 @@
+period,rule,grid_row,model,B,review_periods,n,cv_final,test_final
+first,manuscript (qualitative),60,xgb,B3,"20,50,80,100",4,0.755,0.7785
+first,A: max CV (intermediate),60,xgb,B3,"20,50,80,100",4,0.755,0.7785
+first,B: min |M| s.t. CV>=best-0.005,134,lgbm,B3,"40,80,100",3,0.7574,0.7782
+first,B: min |M| s.t. CV>=best-0.01,317,dt,B3,"80,100",2,0.7497,0.7573
+first,B: min |M| s.t. CV>=best-0.02,317,dt,B3,"80,100",2,0.7497,0.7573
+second,manuscript (qualitative),637,lgbm,B3,"150,200",2,0.7955,0.8091
+second,A: max CV (intermediate),654,xgb,B4,"120,140,160,200",4,0.7951,0.807
+second,B: min |M| s.t. CV>=best-0.005,705,lgbm,B4,"160,200",2,0.7955,0.8097
+second,B: min |M| s.t. CV>=best-0.01,705,lgbm,B4,"160,200",2,0.7955,0.8097
+second,B: min |M| s.t. CV>=best-0.02,705,lgbm,B4,"160,200",2,0.7955,0.8097
+third,manuscript (qualitative),1250,rf,B4,"240,300",2,0.9919,0.9911
+third,A: max CV (intermediate),1223,xgb,B4,"240,300",2,0.9923,0.9913
+third,B: min |M| s.t. CV>=best-0.005,1213,lgbm,B4,300,1,0.9922,0.9916
+third,B: min |M| s.t. CV>=best-0.01,1213,lgbm,B4,300,1,0.9922,0.9916
+third,B: min |M| s.t. CV>=best-0.02,1213,lgbm,B4,300,1,0.9922,0.9916
